@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('background.jpg');
+}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(19, 195, 226);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #746c6c17;
+  padding: 20px;
+}
+.label{
+  color: white ;
+}
+h2{
+  color: white;
+}
+</style>
+</head>
+<body>
+  
+
+  <h2>Contact Form</h2>
+  
+
+
+<div class="container">
+  <form action="contact.php" method="post">
+    <label for="fname"  class="label">User Name</label>
+    <input type="text" id="NAME" name="NAME" placeholder="user name..">
+
+    <label for="email" class="label">Email</label><br>
+    <input type="email" id="EMAIL" name="EMAIL" placeholder="your email id"><br><br>
+
+    <label for="Subject" class="label">Subject</label><br>
+    <input type="text" id="SUBJECT" name="SUBJECT" placeholder="subject">    
+
+    <label for="subject"class="label">message</label><br>
+    <textarea id="MESSAGE" name="MESSAGE" placeholder="Write your problem here.." style="height:200px"></textarea>
+
+    <input type="submit" value="submit" name="submit">
+  </form>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+<html>
+  <head>
+<title>RECEPIENT FORM</title>
+
+<style type="text/css">
+h3{
+  font-family: Calibri; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:SlateBlue;
+  text-align: center; 
+  text-decoration: underline
+}
+body {
+  background-image: url('https://media.istockphoto.com/photos/the-concept-of-charity-love-donate-and-helping-hand-picture-id1280945508?b=1&k=20&m=1280945508&s=170667a&w=0&h=X1lyt6a5JHE4NIGqgyqZQz1JNhsL_yi8lcbYdKCw-OQ=');
+  background-size:cover ;
+  background-repeat:no-repeat;
+ 
+}
+
+table{
+  font-family: Calibri; 
+  color:black; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:; 
+   
+  border-radius: 25px;
+  border: 2px solid navy
+}
+table.inner{
+  border: 0px
+}
+</style>
+</head>
+ 
+<body>
+<h3>RECEPIENT FORM</h3>
+  <form action="reciever.php" method="post">
+
+
+<table align="center" cellpadding = "10">
+ 
+<!----- First Name ---------------------------------------------------------->
+<tr>
+<td>FIRST NAME</td>
+<td><input type="text" name="First_Name" maxlength="30"/>
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+<!----- Last Name ---------------------------------------------------------->
+<tr>
+<td>LAST NAME</td>
+<td><input type="text" name="Last_Name" maxlength="30"/>
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+  <!---AGE---------------------------------------------------------->
+<tr>
+<td>AGE</td>
+<td><input type="text" name="AGE",id="AGE">
+
+ 
+ 
+<tr>
+<td>DATE OF BIRTH</td>
+
+<td><input type="date" name="d_o_b" id="d_o_b"></td>
+
+</tr>
+ 
+<!----- Email Id ---------------------------------------------------------->
+<tr>
+<td>EMAIL ID</td>
+<td><input type="text" name="Email_Id" maxlength="100" /></td>
+</tr>
+ 
+<!----- Mobile Number ---------------------------------------------------------->
+<tr>
+<td>MOBILE NUMBER</td>
+<td>
+<input type="text" name="Mobile_Number" maxlength="10" />
+(10 digit number)
+</td>
+</tr>
+ 
+<!----- Gender ----------------------------------------------------------->
+<tr>
+<td>GENDER</td>
+ 
+<td>
+<select name="GENDER" id="GENDER">
+<option value="-1"></option>
+<option value="MALE">MALE</option>
+<option value="FEMALE">FEMALE</option>
+<option value="TRANSGENDER">TRANSGENDER</option>
+  <option value="OTHER">OTHER</option>
+  </tr>
+  </td>
+
+ 
+ <!---NO.OF PACKETS REQUIRED---------------------------------------------------------->
+<tr>
+<td>NUMBER OF PACKETS REQUIRED</td>
+<td><input type="text" name="no_of_packets" id="no_of_packets">
+           <!----- REFERENCE HOSPITAL---------------------------------------------------------->
+<tr>
+<td>REFERENCE HOSPITAL <br /><br /><br /></td>
+<td><textarea name="ref_hosp" rows="3" cols="30"></textarea></td>
+</tr>
+
+<!----- BLOOD GROUP ---------------------------------------------------------->
+<tr>
+<td>BLOOD GROUP</td>
+ 
+<td>
+<select name="BLOOD GROUP" id="BLOOD GROUP">
+<option value="-1"></option>
+<option value="A+">A+</option>
+<option value="A-">A-</option>
+<option value="B+">B+</option>
+ 
+<option value="B-">B-</option>
+<option value="O+">O+</option>
+<option value="O-">O-</option>
+<option value="AB+">AB+</option>
+<option value="AB-">AB-</option>
+  </tr>
+  </td>
+  <!----- LAST RECIEVED ---------------------------------------------------------->
+  <tr>
+    <td>LAST RECIEVED</td>
+    <td><input type="date" name="l_recieved" id="l_recieved"></td>
+</tr>
+
+<!----- Address ---------------------------------------------------------->
+<tr>
+<td>ADDRESS <br /><br /><br /></td>
+<td><textarea name="Adress" rows="4" cols="30"></textarea></td>
+</tr>
+ 
+<!-----City  ---------------------------------------------------------->
+<tr>
+<td>CITY</td>
+<td><input type="text" name="City" maxlength="30" />
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+  
+<!----- Submit and Reset ------------------------------------------------->
+<tr>
+<td colspan="2" align="center">
+<button name="save" class="button">Register</button>
+<button name="reset" class="button">Reset</button>
+</td>
+</tr>
+</table>
+ 
+</form>
+ 
+</body>
+</html>

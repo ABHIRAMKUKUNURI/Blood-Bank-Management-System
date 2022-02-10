@@ -1,0 +1,38 @@
+.loginbutton{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.btn-login{
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid black;
+  color: black;
+}
+
+
+.btn-login:hover {
+  background: #2dc997;
+  border: 2px solid #2dc997;
+}
+
+1.apply for pass
+2.renuval
+3.verify
+4.logout

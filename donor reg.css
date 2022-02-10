@@ -1,0 +1,46 @@
+h3{
+  
+  font-family: Calibri; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:rgb(221, 69, 42);
+  text-align: center; 
+  text-decoration: underline
+}
+
+body {
+  background-image: url('https://media.istockphoto.com/photos/the-concept-of-charity-love-donate-and-helping-hand-picture-id1280945508?b=1&k=20&m=1280945508&s=170667a&w=0&h=X1lyt6a5JHE4NIGqgyqZQz1JNhsL_yi8lcbYdKCw-OQ=');
+  background-size:cover ;
+  background-repeat:no-repeat;
+ 
+}
+
+table{
+  font-family: Calibri; 
+  color:black; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:; 
+  border-radius: 25px;
+  border: 2px solid rgb(128, 51, 0)
+}
+table.inner{
+  border: 0px
+}
+
+.button {
+  background-color: #db2b34;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
